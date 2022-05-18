@@ -1,0 +1,62 @@
+main{
+  min-height: 80vh;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+.img {
+  height: 250px;
+  width: 250px;
+}
+
+.img2 {
+  height: 450px;
+  width: 450px;
+}
+
+.img2:hover {
+  transform: rotate(0) scale(1.8) translateZ(0);
+  -webkit-filter: drop-shadow(0 20px 20px  rgba(0, 0, 0, 0.70));
+  filter: drop-shadow(0 20px 20px rgba(0, 0, 0, 0.70));
+}
+
+.img:hover {
+  transform: rotate(0) scale(1.3) translateZ(0);
+  -webkit-filter: drop-shadow(0 20px 20px  rgba(0, 0, 0, 0.70));
+  filter: drop-shadow(0 20px 20px rgba(0, 0, 0, 0.70));
+}
+.i2 {
+  margin: 4px;
+}
+
+.select1 {
+  background-color: #333333;
+  color: white;
+}
+
+.nav-links:hover {
+  background-color: gold;
+  color: black;
+  border-radius: 3px;
+  transform: translateY(-5px) scale(1) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+  0 24px 46px var(--box-shadow-color);
+}
+
+.card1 {
+  border: none;
+}
+
+.card1:hover {
+  color: #f2f2f2;
+  box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.5);
+  background-color: rgb(247, 175, 41);
+  border: none;
+}
+
+.vendedor {
+  font-size: 1.2rem;
+}
