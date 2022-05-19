@@ -26,7 +26,7 @@ const Search = () => {
 <>
             <Row>
                 {products.filter((prod,i)=> (prod.category.toString().toLowerCase().includes(id.toLowerCase())||
-                    prod.brand.toString().toLowerCase().includes(id.toLowerCase())||prod.name.toString().toLowerCase().includes(id.toLowerCase())))
+                    prod.marca?.toString().toLowerCase().includes(id.toLowerCase())||prod.name.toString().toLowerCase().includes(id.toLowerCase())))
                     .map((producto, j) => (
                     <Col key={j} sm={12} md={6} lg={4} xl={3}>
                     <Product product={producto} />

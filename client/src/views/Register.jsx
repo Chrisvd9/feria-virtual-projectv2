@@ -25,6 +25,7 @@ const Register = () => {
 
     const redirect = location.search ? location.search.split('=')[1] : "/";
     
+    console.log(userInfo)
 
     useEffect(() => {
         console.log(redirect)
@@ -39,7 +40,6 @@ const Register = () => {
             setMessage('Las contraseñas no coinciden')
         } else {
             dispatch(register(name, email, password, isAdmin))
-            navigate("/")
         }
     }
 
@@ -75,8 +75,8 @@ const Register = () => {
                         <Form.Control type='password' placeholder='Vuelve a ingresar tu contraseña' value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
                     </Form.Group>
 
-                    <Form.Group className='mt-3' controlId='isadmin'>
-                        <Form.Check className='vendedor' type='checkbox' label='Cuenta de vendedor' value={isAdmin} checked={isAdmin} onChange={(e) => setIsAdmin(e.target.checked)} />
+                    <Form.Group className='mt-3' controlId='isAdmin'>
+                        <Form.Check type='checkbox' label='Cuenta vendedor' value={isAdmin} checked={isAdmin} onChange={(e) => setIsAdmin(e.target.checked)} />
                     </Form.Group>
 
                     <Button className='my-3' type='submit' variant='primary'>Crear cuenta</Button>

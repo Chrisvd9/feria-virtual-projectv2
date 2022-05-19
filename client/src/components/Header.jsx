@@ -54,7 +54,7 @@ const Header = () => {
                             <option value="Libros">Libros</option>
                             <option value="Juguetes">Juguetes</option>
                         </select>
-                        <form class="d-flex ms-3" method= "post" onSubmit={onSubmitHandler}>
+                        <form className="d-flex ms-3" method= "post" onSubmit={onSubmitHandler}>
                             <input id='filterr' className={`form-control`} name='valor' onChange = {(e)=>{handleonchange(e)}} value={valor} type="text" placeholder="Busca por nombre producto, categoria o marca"/>
                             <button className='btn btn-secondary ms-3' type="submit">Search</button>
                         </form>
