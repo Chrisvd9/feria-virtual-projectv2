@@ -24,7 +24,7 @@ const Home = () => {
     return (
         <>
             <Componentecarrusel></Componentecarrusel>
-            <h1>Últimos productos posteados</h1>
+            <h1>Últimos productos posteados!</h1>
             {loading ? 
             <Loader/> : error ? <Message variant='danger'>{error}</Message> :  
             <Row>
