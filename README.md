@@ -1,4 +1,4 @@
-# feria-virtual-projectv2
+# Feria-virtual-project v2
 Proyecto grupal Coding Dojo 2022 
 
 Página e-commerce sobre una feria virtual. Se quiso recrear ferias de las calles en una página web.
