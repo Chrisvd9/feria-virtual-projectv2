@@ -1,6 +1,8 @@
 # Feria-virtual-project v2
 Proyecto grupal Coding Dojo 2022 
 
+Proyecto realizado con las tecnologías MERN.
+
 Página e-commerce sobre una feria virtual. Se quiso recrear ferias de las calles en una página web.
 
 
