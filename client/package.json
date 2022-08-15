@@ -48,5 +48,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://feria-virtualv2.herokuapp.com/"
+  "proxy": "http://localhost:8000/"
 }
