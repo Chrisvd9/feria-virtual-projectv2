@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "data:import": "node seeders",
-    "data:destroy": "node seeders -d"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Christian Vergara",
